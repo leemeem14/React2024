@@ -1,0 +1,14 @@
+Button{
+    margin: 5px;
+    size: 40px;
+    background: brown;
+}
+.bg-green{
+    color: green;
+}
+.bg-red{
+    color: red;
+}
+.bg-blue{
+    color: blue;
+}
