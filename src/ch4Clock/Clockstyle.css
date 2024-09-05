@@ -1,0 +1,11 @@
+div{
+    border-width: 5px;
+    border-style: groove;
+    border-color: burlywood;
+    background-color: greenyellow;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+}

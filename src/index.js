@@ -3,21 +3,26 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import './ch4/Button.css'
 import './ch3/Book.css'
-import './ch4/Element.css'
+import './ch4Clock/Clockstyle.css'
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Library from "./ch3/Library";
 import Button from "./ch4/Button";
 import ConfirmDialog from "./ch4/ConfirmDialog";
+import Clock from "./ch4Clock/Clock";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <Library/>
-        <Button/>
-      <ConfirmDialog/>
+setInterval(()=> {
+        root.render(
+            <React.StrictMode>
+                <Clock/>
 
-  </React.StrictMode>
+            </React.StrictMode>
+
+            , 1000
+        );
+    }
 )
 
 
