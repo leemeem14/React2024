@@ -1,22 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import './ch4/Button.css'
-import './ch3/Book.css'
-import './ch4Clock/Clockstyle.css'
+// import './ch4/Button.css'
+// import './ch3/Book.css'
+// import './ch4Clock/Clockstyle.css'
 
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Library from "./ch3/Library";
-import Button from "./ch4/Button";
-import ConfirmDialog from "./ch4/ConfirmDialog";
-import Clock from "./ch4Clock/Clock";
+// import Library from "./ch3/Library";
+// import Button from "./ch4/Button";
+// import ConfirmDialog from "./ch4/ConfirmDialog";
+// import Clock from "./ch4Clock/Clock";
+import Comment from "./ch5/Comment";
+import CommentList from "./ch5/CommentList";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 setInterval(()=> {
         root.render(
             <React.StrictMode>
-                <Clock/>
+                <Comment/>
+                <CommentList/>
 
             </React.StrictMode>
 
