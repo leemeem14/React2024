@@ -21,6 +21,16 @@ class Notification extends React.Component{
         super(props);//컴포넨트가 생성될떄 프롭을 전달받을수 있는 매개변수를 갖는 생성자 호출
         this.state={};
     }
+    componentDidMount() {
+        console.log(`${this.props.id}:componentDidMount() called`);
+    }
+    componentDidUpdate() {
+        console.log(`${this.props.id}: componentDidUpdate() called`);
+    }
+    componentWillUnmount() {
+        console.log(`${this.props.id}: componentWillUnmount() called`);
+    }
+
     render() {
         return(
             <div className="wrapper">
