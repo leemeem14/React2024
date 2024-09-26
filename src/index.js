@@ -4,12 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import NotificationList from "./ch6/NotificationList";
+import Accommodate from "./ch7/Accommodate";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 setInterval(()=> {
         root.render(
             <React.StrictMode>
-                <NotificationList/>
+                <Accommodate/>
             </React.StrictMode>
 
             , 1000
