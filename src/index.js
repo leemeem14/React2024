@@ -3,14 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import NotificationList from "./ch6/NotificationList";
-import Accommodate from "./ch7/Accommodate";
+import ComfirmButton from "./ch8/ComfirmButton";
+import ComfirmButton2 from "./ch8/ComfirmButton2";
+import ComfirmButton3 from "./ch8/ComfirmButton3";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 setInterval(()=> {
         root.render(
             <React.StrictMode>
-                <Accommodate/>
+               <ComfirmButton3/>
             </React.StrictMode>
 
             , 1000
