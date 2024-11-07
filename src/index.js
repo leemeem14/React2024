@@ -6,13 +6,15 @@ import reportWebVitals from './reportWebVitals';
 import ComfirmButton from "./ch8/ComfirmButton";
 import ComfirmButton2 from "./ch8/ComfirmButton2";
 import ComfirmButton3 from "./ch8/ComfirmButton3";
+import Greeting from "./ch9/Greeting";
+import LoginControl from "./ch9/LoginControl";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 setInterval(()=> {
         root.render(
             <React.StrictMode>
-               <ComfirmButton3/>
+               <LoginControl/>
             </React.StrictMode>
 
             , 1000
