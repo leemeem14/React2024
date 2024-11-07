@@ -2,7 +2,7 @@ import React from "react";
 import {useState} from "react";
 import LogoutButton from "./LogoutButton";
 import LoginButton from "./LoginButton";
-import Greeting from "./Greeting";
+import Greeting from "../test/Greeting";
 
 
 function LoginControl(props){

@@ -8,13 +8,19 @@ import ComfirmButton2 from "./ch8/ComfirmButton2";
 import ComfirmButton3 from "./ch8/ComfirmButton3";
 import Greeting from "./ch9/Greeting";
 import LoginControl from "./ch9/LoginControl";
+import MailBox from "./ch9/MailBox";
+import LoginControl2 from "./test/LoginControl2";
+import Toolbar from "./ch9/ToolBar";
+import LandingPage from "./ch9/LandingPage";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 setInterval(()=> {
         root.render(
             <React.StrictMode>
-               <LoginControl/>
+               {/*<LoginControl2 isLoggedIn={true}/>*/}
+            {/*<Toolbar/>*/}
+                <LandingPage/>
             </React.StrictMode>
 
             , 1000
