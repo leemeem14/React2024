@@ -15,6 +15,7 @@ import LandingPage from "./ch9/LandingPage";
 import AppNumberList from "./ch10/AppNumberList";
 import StudentAttendance from "./ch10/StudentAttendance";
 import AppStudentAttendance from "./ch10/AppStudentAttendance";
+import AttendanceCard from "./ch10/avatarAttendance/AttendanceCard";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -23,7 +24,7 @@ setInterval(()=> {
             <React.StrictMode>
                {/*<LoginControl2 isLoggedIn={true}/>*/}
             {/*<Toolbar/>*/}
-                <AppStudentAttendance/>
+                <AttendanceCard/>
             </React.StrictMode>
 
             , 1000
