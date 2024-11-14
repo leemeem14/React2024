@@ -12,6 +12,9 @@ import MailBox from "./ch9/MailBox";
 import LoginControl2 from "./test/LoginControl2";
 import Toolbar from "./ch9/ToolBar";
 import LandingPage from "./ch9/LandingPage";
+import AppNumberList from "./ch10/AppNumberList";
+import StudentAttendance from "./ch10/StudentAttendance";
+import AppStudentAttendance from "./ch10/AppStudentAttendance";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -20,7 +23,7 @@ setInterval(()=> {
             <React.StrictMode>
                {/*<LoginControl2 isLoggedIn={true}/>*/}
             {/*<Toolbar/>*/}
-                <LandingPage/>
+                <AppStudentAttendance/>
             </React.StrictMode>
 
             , 1000
