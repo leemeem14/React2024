@@ -11,7 +11,7 @@ const students = [
     {id:7,name:"DEF",grade:1,major:"컴공",avatar:"https://randomuser.me/api/portraits/men/23.jpg"},
     {id:8,name:"GHI",grade:1,major:"체육학",avatar:"https://randomuser.me/api/portraits/women/92.jpg"},
     {id:9,name:"xyz",grade:3,major:"컴공",avatar:"https://randomuser.me/api/portraits/lego/5.jpg"},
-    {id:10,name:"성윤모",grade:1,major:"짬찌",avatar:img1}
+    {id:10,name:"성윤모",grade:1,major:"폐급00",avatar:img1}
 ]
 
 function AttendanceCard() {

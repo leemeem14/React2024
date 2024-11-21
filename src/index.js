@@ -16,6 +16,10 @@ import AppNumberList from "./ch10/AppNumberList";
 import StudentAttendance from "./ch10/StudentAttendance";
 import AppStudentAttendance from "./ch10/AppStudentAttendance";
 import AttendanceCard from "./ch10/avatarAttendance/AttendanceCard";
+import NameForm from "./ch11/NameForm";
+import RequestForm from "./ch11/RequestForm";
+import NameRequestForm from "./ch11/NameRequestForm";
+import SignUpForm from "./ch11/SignUpForm";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -24,7 +28,7 @@ setInterval(()=> {
             <React.StrictMode>
                {/*<LoginControl2 isLoggedIn={true}/>*/}
             {/*<Toolbar/>*/}
-                <AttendanceCard/>
+                <SignUpForm/>
             </React.StrictMode>
 
             , 1000
